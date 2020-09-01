@@ -18,7 +18,7 @@ def 구동():
   return webdriver.Chrome(options=chrome_options)
 
 
-def 빠른수프(주소, 태그, 속성="class", 속성값, findAll=False):
+def 빠른수프(주소, 태그, 속성="class", 속성값="", findAll=False):
   bs = BeautifulSoup( requests.get(주소).text , "html.parser" )
 
   if findAll:
