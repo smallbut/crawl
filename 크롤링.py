@@ -2,6 +2,7 @@ import re
 import time
 import random
 
+import HDR
 import 입출력
 import requests
 
